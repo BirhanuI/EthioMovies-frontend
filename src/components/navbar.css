@@ -1,0 +1,100 @@
+.nav {
+  background-color: var(--second);
+  color: var(--third);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.6);
+}
+.log{
+  background-color: var(--third);
+  border-radius: 0 50px 0px 0;
+  padding-right: 10px;
+}
+.logo {
+  margin-left: 30px;
+  color: var(--fifth);
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  align-items: flex-end;
+}
+.nav-ul>li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.15rem;
+  padding: 0px 0.9rem;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 5px;
+}
+.nav-ul>li :link{
+  color: var(--fifth);
+}
+.nav-ul>li :visited{
+  color: var(--fifth);
+}
+.nav li:hover{
+  background-color: var(--third);
+  border-radius: 10px 10px 0px 0;
+  color: var(--fifth);
+  transition: 0.2s;
+}
+.search-box{
+  color: var(--third);
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-right: 1rem;
+    
+  }
+  .input-search{
+    width: 0px;
+    border-style: none;
+    border-bottom: 2px var(--third) dashed;
+    padding: 10px;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    outline: none;
+    color:var(--fifth);
+  }
+  .input-search::placeholder{
+    color:var(--third);
+    font-size: .8rem;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 2rem;
+    height: 2rem;
+    border-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    color:var(--third);
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:hover{
+    color:var(--fifth)
+  }
+  .input-search{
+    width: 15rem;
+    border-radius: 0px;
+    background-color: transparent;
+    color:var(--fifth);
+  }
+  .input-search:focus{
+    border-bottom: 2px var(--fifth) dashed;
+  }
+  .login-btn{
+    cursor: pointer;
+  }

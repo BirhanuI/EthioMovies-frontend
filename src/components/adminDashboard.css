@@ -1,0 +1,40 @@
+.admin-container{
+    display: flex;
+    justify-content: space-around;
+}
+.dashboard-sidebar{
+    flex-grow: 1;
+    border-right: solid 3px var(--second);
+    height: 100vh;
+}
+.dashboard-sidebar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    list-style: none;
+}
+.dashboard-sidebar ul li{
+    margin-top: 1em;
+    padding: 0.2em;
+    font-size: 1.3em;
+    font-weight: 500;
+    width: 97.2%;
+}
+.dashboard-sidebar ul li:hover{
+    background-color: lightgray;
+}
+:link{
+    text-decoration: none;
+}
+.dashboard-body{
+    flex-grow: 4;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.search label{
+    font-size: 1.3em;
+}
+.search input {
+    font-size: 1em;
+}

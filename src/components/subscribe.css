@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+:root {
+    --blue: #6d6de6;
+    --text: #0f121f;
+  }
+  
+.price {
+    color:var(--first);
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: var(--second);
+}
+.price-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  gap: 3em;
+}
+.price h1 {
+    text-align: center;
+  color: var(--fifth);
+  font-size: 32px;
+  line-height: 41px;
+  margin-bottom: 20px;
+}
+.price span {
+    color: var(--fifth);
+    text-align:center;
+  font-size: 3em;
+  line-height: 41px;
+  font-weight: bold;
+}
+.price .subscribe-btn {
+    margin-top: auto;
+    display: block;
+    padding-top: 22px;
+    text-align: center;
+    padding-bottom: 22px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: var(--blue);
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .price b{
+    font-size: 24px;
+  }
+  .pricing{
+    border: 1px solid gray;
+    padding: 20px;
+    width: max(8em,12em);
+  }
+  .pricing p {
+    text-align: center;
+  }

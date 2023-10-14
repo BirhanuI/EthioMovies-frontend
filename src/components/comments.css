@@ -1,0 +1,83 @@
+.comment-section {
+  display: flex;
+  padding: 30px;
+  gap: 5em;
+}
+
+.comment-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+}
+.comment-list > li:nth-child(odd) {
+  background: lightgray;
+}
+
+.comment {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+ 
+}
+
+.comment-author {
+  margin: 0;
+  font-size: 0.7rem;
+   margin-right: 30px;
+}
+
+.comment-date {
+  font-style: italic;
+  font-size: 0.5rem;
+}
+
+.comment-body p {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.comment-form {
+  margin-top: 40px;
+  width:100%
+}
+
+.comment-form h3 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}

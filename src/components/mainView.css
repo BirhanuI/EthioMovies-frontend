@@ -1,0 +1,17 @@
+.grid-main-view {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 1rem;
+  font-weight: 600;
+  color: var(--forth);
+}
+.menu {
+  justify-self: center;
+}
+.main {
+  justify-self: center;
+}
+.catagory {
+  justify-self: center;
+}

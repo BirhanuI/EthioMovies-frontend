@@ -1,0 +1,24 @@
+.mid-main{
+border-right: 3px var(--second) solid;
+padding-right: 20px;
+}
+.mid-main > span{
+    opacity: 0.7;
+    display: flex;
+}
+.image-container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.poster{
+max-width: 7rem;
+height: 9em;
+margin-right: 10px;
+}
+.poster img{
+    width:100%;
+    height: 100%;
+    margin-right: 10px;  
+}

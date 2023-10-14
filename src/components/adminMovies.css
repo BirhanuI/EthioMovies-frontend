@@ -1,0 +1,26 @@
+.admin-movies{
+    position: relative;
+    height: 800px;
+    overflow-y: auto;
+}
+.admin-movies h1{
+    text-align: center;
+    color: var(--fifth);
+}
+.admin-movies table{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    overflow: auto;
+}
+.admin-movies table thead {
+    background-color: var(--second);
+    color: var(--first);
+}
+.admin-movies table tr td{
+    padding: 0.5em;
+}
+.admin-movies table tr:nth-child(odd){
+    background-color: lightgray;
+
+}

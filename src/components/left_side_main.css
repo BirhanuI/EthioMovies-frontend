@@ -1,0 +1,30 @@
+.left-side-main{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 30px;
+    border-right: 3px var(--second) solid;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu span,.genre span{
+    opacity: 0.7;
+}
+.lef-side-main li{
+    display: flex;
+    align-items: center;
+}
+.left-side-list{
+    list-style: none;
+    cursor: pointer;
+    margin-right: -3px;
+    margin-bottom: 0.7rem;
+    padding: 5px;
+    transition: 0.2s;
+}
+ul>.left-side-list:hover{
+    color: var(--third);
+    border-right: 6px var(--third) solid;
+}
